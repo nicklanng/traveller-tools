@@ -28,6 +28,8 @@ func main() {
 
 	fmt.Println(c.String())
 
-	mm := screens.NewMainMenu()
-	mm.Render()
+	// mm := screens.NewMainMenu()
+	// mm.Render()
+
+	screens.InitializeUI()
 }
