@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nicklanng/traveller-tools/pkg/characters"
-	"github.com/nicklanng/traveller-tools/pkg/dice"
+	"github.com/nicklanng/traveller-tools/pkg/app/screens"
+	"github.com/nicklanng/traveller-tools/pkg/game/characters"
+	"github.com/nicklanng/traveller-tools/pkg/game/dice"
 )
 
 func main() {
@@ -26,4 +27,7 @@ func main() {
 	}
 
 	fmt.Println(c.String())
+
+	mm := screens.NewMainMenu()
+	mm.Render()
 }

@@ -1,6 +1,7 @@
 package characters
 
 var (
+	// RaceHuman is a Human Bean
 	RaceHuman = &Race{
 		Name: "Human",
 	}

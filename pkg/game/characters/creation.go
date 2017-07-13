@@ -1,8 +1,9 @@
 package characters
 
-import "github.com/nicklanng/traveller-tools/pkg/planets"
+import "github.com/nicklanng/traveller-tools/pkg/game/planets"
 
 var (
+	// BackgroundSkills is the set of skills a character can learn on their homeworld.
 	BackgroundSkills = map[planets.TradeCodeName]Skill{
 		planets.TradeCodeAgricultural:   Skills[SkillAnimals],
 		planets.TradeCodeAsteroid:       Skills[SkillZeroG],
@@ -20,6 +21,7 @@ var (
 		planets.TradeCodeVacuum:         Skills[SkillVaccSuit],
 	}
 
+	// Education is the set of skills that can be chosen as education at character creation.
 	Education = []Skill{
 		Skills[SkillAdmin],
 		Skills[SkillAdvocate],

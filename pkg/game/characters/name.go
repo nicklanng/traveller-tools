@@ -1,5 +1,6 @@
 package characters
 
+// Name is an interface for every kind of name, declaring standard ways of printing them.
 type Name interface {
 	IndexedName() string
 	String() string
