@@ -31,12 +31,20 @@ func NewCreateCharacter() tui.Widget {
 	careersBox.SetSizePolicy(tui.Preferred, tui.Expanding)
 
 	ac := accounting.Accounting{Symbol: "Cr ", Precision: 0}
-	finances := tui.NewGrid(0, 0)
-	finances.AppendRow(tui.NewLabel("Pension:"), tui.NewLabel(ac.FormatMoney(123456789)))
-	finances.AppendRow(tui.NewLabel("Debt:"), tui.NewLabel(ac.FormatMoney(123456789)))
-	finances.AppendRow(tui.NewLabel("Cash:"), tui.NewLabel(ac.FormatMoney(123456789)))
-	finances.AppendRow(tui.NewLabel("Ship cost/month: "), tui.NewLabel(ac.FormatMoney(123456789)))
-	financesBox := tui.NewVBox(tui.NewPadder(1, 0, finances))
+	pension := tui.NewLabel("Pension:   " + ac.FormatMoney(0))
+	pension.SetStyleName("value")
+	debt := tui.NewLabel("Debt:      " + ac.FormatMoney(75345332))
+	debt.SetStyleName("value")
+	cash := tui.NewLabel("Cash:      " + ac.FormatMoney(50000))
+	cash.SetStyleName("value")
+	shipCost := tui.NewLabel("Ship cost: " + ac.FormatMoney(59001))
+	shipCost.SetStyleName("value")
+	financesBox := tui.NewVBox(
+		tui.NewPadder(1, 0, pension),
+		tui.NewPadder(1, 0, debt),
+		tui.NewPadder(1, 0, cash),
+		tui.NewPadder(1, 0, shipCost),
+	)
 	financesBox.SetTitle("Finances")
 	financesBox.SetBorder(true)
 	financesBox.SetSizePolicy(tui.Preferred, tui.Minimum)

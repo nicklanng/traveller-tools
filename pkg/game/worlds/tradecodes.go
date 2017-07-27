@@ -1,4 +1,4 @@
-package planets
+package worlds
 
 var (
 	TradeCodeAgricultural    TradeCodeName = "Agricultural"
@@ -48,4 +48,8 @@ type TradeCode struct {
 	Name        TradeCodeName
 	Code        string
 	Description string
+}
+
+func (t TradeCode) String() string {
+	return t.Code
 }

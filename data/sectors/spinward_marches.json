@@ -1,0 +1,218 @@
+{
+  "name": "Spinward Marches",
+  "coords": {
+    "x": -4,
+    "y": 1
+  },
+  "subSectors": {
+    "A": {
+      "name": "Cronor",
+      "worlds": [
+        {
+          "name": "Zeycude",
+          "population": 6
+        },
+        {
+          "name": "Reno",
+          "population": 7
+        },
+        {
+          "name": "Errere",
+          "population": 6
+        },
+        {
+          "name": "Cantrel",
+          "population": 2
+        },
+        null,
+        null,
+        null,
+        {
+          "name": "Gyomar",
+          "population": 8
+        },
+        null,
+        null,
+
+        null,
+        {
+          "name": "Thengo",
+          "population": 5
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        {
+          "name": "Rio",
+          "population": 6
+        },
+        null,
+        {
+          "name": "Gesentown",
+          "population": 6
+        },
+        {
+          "name": "Cronor",
+          "population": 9
+        },
+        null,
+        null,
+        {
+          "name": "Atsa",
+          "population": 7
+        },
+        null,
+        null,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+        {
+          "name": "Whenge",
+          "population": 5
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        {
+          "name": "Enlas-du",
+          "population": 7
+        },
+        null,
+        null,
+        null,
+        {
+          "name": "Algebaster",
+          "population": 6
+        },
+        null,
+        {
+          "name": "Rasatt",
+          "population": 4
+        },
+        {
+          "name": "Ninjar",
+          "population": 6
+        },
+        null,
+        {
+          "name": "Sheyou",
+          "population": 7
+        },
+
+        null,
+        null,
+        {
+          "name": "Indo",
+          "population": 6
+        },
+        {
+          "name": "Nerewhon",
+          "population": 4
+        },
+        {
+          "name": "Cipango",
+          "population": 8
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "name": "Stave",
+          "population": 7
+        },
+
+        null,
+        null,
+        null,
+        null,
+        {
+          "name": "Narval",
+          "population": 6
+        },
+        null,
+        {
+          "name": "Plaven",
+          "population": 3
+        },
+        {
+          "name": "Quar",
+          "population": 7
+        },
+        null,
+        {
+          "name": "Frond",
+          "population": 3
+        }
+      ]
+    },
+    "B": {
+      "name": "Jewell"
+    },
+    "C": {
+      "name": "Regina"
+    },
+    "D": {
+      "name": "Aramis"
+    },
+    "E": {
+      "name": "Querion"
+    },
+    "F": {
+      "name": "Vilis"
+    },
+    "G": {
+      "name": "Lanth"
+    },
+    "H": {
+      "name": "Rhylanor"
+    },
+    "I": {
+      "name": "Darrian"
+    },
+    "J": {
+      "name": "Sword Worlds"
+    },
+    "K": {
+      "name": "Lunion"
+    },
+    "L": {
+      "name": "Mora"
+    },
+    "M": {
+      "name": "Five Sisters"
+    },
+    "N": {
+      "name": "District 268"
+    },
+    "O": {
+      "name": "Glisten"
+    },
+    "P": {
+      "name": "Trin's Veil"
+    }
+  }
+}
